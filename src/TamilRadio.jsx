@@ -109,7 +109,7 @@ const PlayerContainer = styled.div`
 `;
 
 const Title = styled.h2`
-  color: #1825AA;
+  color: #233c64;
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -171,7 +171,7 @@ const Footer = styled.div`
   color: white;
   margin-top: auto;
   padding: 10px 0;
-  background-color: #1825AA;
+  background-color: #233c64;
 
   img {
     margin-left: 10px;
@@ -208,7 +208,7 @@ const TamilRadio = ({ setAuthenticated }) => {
 
     const playStream = () => {
       setIsLoading(true);
-      audioElement.src = "https://altair.streamerr.co/stream/8058";
+      audioElement.src = "https://altair.streamerr.co/stream/8014";
       audioElement.load();
       audioElement.play().then(() => {
         setIsLoading(false);
@@ -253,7 +253,7 @@ const TamilRadio = ({ setAuthenticated }) => {
 
   const handleLiveButtonClick = () => {
     const audioElement = audioRef.current;
-    audioElement.src = "https://altair.streamerr.co/stream/8058";
+    audioElement.src = "https://altair.streamerr.co/stream/8014";
     audioElement.load();
     audioElement.play().catch(error => {
       console.error('Error attempting to play the live stream:', error);
@@ -287,16 +287,16 @@ const TamilRadio = ({ setAuthenticated }) => {
     <div>
       <Header setAuthenticated={setAuthenticated} onBack={handleBack} onLogout={handleLogout} />
       <BackgroundContainer>
-        <Logo src={`${process.env.PUBLIC_URL}/images/Hirdaramanilogo.png`} alt="Logo" />
+        <Logo src={`${process.env.PUBLIC_URL}/images/timexlogo.png`} alt="Logo" />
         <br></br>     <br></br>     <br></br>     <br></br>
         <Container>
           <Sidebar>
             <GlobalStyle />
             <PlayerContainer>
-              <Title>H BEAT - Tamil</Title>
-              <RadioImage src="/HBeat.jpg" alt="Radio" />
+              <Title>TIMEX - Tamil</Title>
+              <RadioImage src="/TIMEX.png" alt="Radio" />
               <HiddenAudio ref={audioRef}>
-                <source src="https://altair.streamerr.co/stream/8058" type="audio/mpeg" />
+                <source src="https://altair.streamerr.co/stream/8014" type="audio/mpeg" />
                 Your browser does not support the audio element.
               </HiddenAudio>
               <Button onClick={handleLiveButtonClick}>Live</Button>

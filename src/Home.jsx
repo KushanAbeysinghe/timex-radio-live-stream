@@ -12,10 +12,10 @@ const Home = ({ setAuthenticated }) => {
     <div>
       <Header setAuthenticated={setAuthenticated} />
       <HomeContainer>
-        <Logo src={`${process.env.PUBLIC_URL}/images/Hirdaramanilogo.png`} alt="Logo" />
+        <Logo src={`${process.env.PUBLIC_URL}/images/timexlogo.png`} alt="Logo" />
         <Content>
           <Card>
-            <h2>H-Beat Radio Online Stream</h2>
+            <h2>TIMEX Radio Online Stream</h2>
             <ButtonGroup>
               <Button onClick={() => navigate('/sinhala-radio')}>Sinhala</Button>
               <Button onClick={() => navigate('/tamil-radio')}>Tamil</Button>
@@ -109,7 +109,7 @@ const Button = styled.button`
   width: 200px;
   height: 60px;
   font-size: 18px;
-  background-color: #1825AA;
+  background-color: #233c64;
   color: #fff;
   
   border: none;
@@ -137,7 +137,7 @@ const Footer = styled.div`
   text-align: center;
   color: white;
   padding: 10px 0;
-  background-color: #1825AA;
+  background-color: #233c64;
 
   img {
     margin-left: 10px;

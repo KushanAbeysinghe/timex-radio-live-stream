@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding: 15px;
-    background-color: #1825AA;
+    background-color: #233c64;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     color: white;
   }
@@ -25,7 +25,7 @@
     font-size: 14px; /* Reduced font size */
     border-radius: 4px; /* Adjusted border radius */
     background-color: white;
-    color: #1825AA
+    color: #233c64
     ;
   }
   

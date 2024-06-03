@@ -20,7 +20,7 @@ const Login = ({ setAuthenticated }) => {
   return (
     <div>
     <LoginContainer>
-      <Logo src={`${process.env.PUBLIC_URL}/images/Hirdaramanilogo.png`} alt="Logo" />
+      <Logo src={`${process.env.PUBLIC_URL}/images/timexlogo.png`} alt="Logo" />
       <LoginCard>
         <h2>Login</h2>
         <FormGroup>
@@ -114,7 +114,7 @@ const Input = styled.input`
 const Button = styled.button`
   width: 100%;
   padding: 10px 20px;
-  background-color: #1825AA;
+  background-color: #233c64;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -135,7 +135,7 @@ const Footer = styled.div`
   color: white;
   margin-top: auto;
   padding: 10px 0;
-  background-color: #1825AA; /* Optional: Add background color for better visibility */
+  background-color: #233c64; /* Optional: Add background color for better visibility */
 
   img {
     margin-left: 10px;

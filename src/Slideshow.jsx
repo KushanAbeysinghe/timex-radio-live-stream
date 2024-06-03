@@ -4,10 +4,10 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 const images = [
-  process.env.PUBLIC_URL + '/images/image1.png',
-  process.env.PUBLIC_URL + '/images/image2.png',
-  process.env.PUBLIC_URL + '/images/image3.png',
-  process.env.PUBLIC_URL + '/images/image4.png'
+  process.env.PUBLIC_URL + '/images/image1.jpg',
+  process.env.PUBLIC_URL + '/images/image2.jpg',
+  process.env.PUBLIC_URL + '/images/image3.jpg',
+  process.env.PUBLIC_URL + '/images/image4.jpg'
 ];
 
 const Slideshow = () => {
